@@ -1,4 +1,6 @@
-variable "aws_region" {}
+variable "aws_region" {
+  default = "us-east-1"
+}
 variable "account" {}
 variable "name" {}
 variable "project" {}
@@ -10,10 +12,6 @@ variable "whitelist" {
 }
 
 #variable "kms_key_arn" {}
-
-variable "trusted_networks" {
-  default = ["10.210.0.0/16", "10.211.0.0/16", "10.222.0.0/16"]
-}
 
 variable "vgw_tags" {
   type        = "map"

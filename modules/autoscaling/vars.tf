@@ -10,6 +10,12 @@ variable "env" {
   description = "Environment Name"
 }
 
+
+variable "region" {
+  description = "default region"
+  default     = "us-east-1"
+}
+
 variable "vpc_id" {
   description = "VPC where to deploy the resources"
 }
