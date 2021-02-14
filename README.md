@@ -1,7 +1,7 @@
 # Pre-requisites 
 
 
-##NOTE : Please note this works with 0.11.14 version of terraform. 
+## NOTE : Please note this works with 0.11.14 version of terraform. 
 
 ```
 https://releases.hashicorp.com/terraform/0.11.14/
