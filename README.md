@@ -39,5 +39,7 @@ After completing the above process follow the below steps :
 -> terraform apply to apply the changes
 
 
+## Note : For destroy please use Terraform destroy
+
 
 
