@@ -20,6 +20,8 @@ Default output format [None]:
 Once you have added your credentials at `~/.aws/credentials ` and config at `~/.aws/config` we can start with terraforming. 
 
 
+## Terraform starts here
+
 Navigate to components folder and get into vpc folder. The only required variable for this component to work is cidr range, that has already been provided in the vars.tf (cidr "10.192.192.0/23") file. 
 
 Please run this component using the below commands. 
